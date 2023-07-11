@@ -35,9 +35,9 @@ void ABaseActor::Tick(float DeltaTime)
 
 void ABaseActor::printTypes()
 {
-	UE_LOG(LogTemp, Display, TEXT("HEELO NIGGA!"));
-	UE_LOG(LogTemp, Warning, TEXT("HEELO NIGGA!"));
-	UE_LOG(LogTemp, Error, TEXT("HWWWWW NIGGA!"));
+	UE_LOG(LogTemp, Display, TEXT("HEELO Stranger!"));
+	UE_LOG(LogTemp, Warning, TEXT("HEELO Stranger!"));
+	UE_LOG(LogTemp, Error, TEXT("HWWWWW Stranger!"));
 
 	int WeaponNum = 4;
 
@@ -46,8 +46,6 @@ void ABaseActor::printTypes()
 
 void ABaseActor::printStringTypes()
 {
-
-
 	FString Name = "John DOe";
 
 	UE_LOG(LogBaseThings, Display, TEXT("NAME: %s"), *Name);
